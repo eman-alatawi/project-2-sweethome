@@ -51,7 +51,7 @@
 		</div>
 	</div>
 	
-	<div class="form-group row mx-5 my-2">
+	<%-- <div class="form-group row mx-5 my-2">
   	<label class="col-sm-2 col-form-label">Owner</label>
   	<div class="col-sm-10">
 	  <% if(session.getAttribute("user") != null) {%>
@@ -60,7 +60,10 @@
  	    </select>
       <%} %>
    </div>
-   </div>
+   </div> --%>
+   
+   				<input type="hidden" name="user" value="${user.id}">
+   
 
 <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
 

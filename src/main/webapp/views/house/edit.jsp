@@ -6,7 +6,8 @@
 <div class="w-100 flex flex-row justify-center my-1 pt-2">
 <p class="text-3xl text-gray-600">Edit House</p>
 </div>
- <div class="shadow-sm p-10 mt-3 mb-5 bg-indigo-100 rounded text-gray-600 ">
+ <div class="shadow-sm p-10 mt-3 mb-5 bg-indigo-100 rounded text-gray-600 flex flex-row  ">
+  <div class="w-3/4 ">
  <form action="${appName}house/add" method="post">
 
 	<div class="form-group row mx-5 my-2">
@@ -51,7 +52,7 @@
 		</div>
 	</div>
 	
-	<div class="form-group row mx-5 my-2">
+	<%-- <div class="form-group row mx-5 my-2">
   	<label class="col-sm-2 col-form-label">Owner</label>
   	<div class="col-sm-10">
 	  <% if(session.getAttribute("user") != null) {%>
@@ -60,7 +61,9 @@
  	    </select>
       <%} %>
    </div>
-   </div>
+   </div> --%>
+   
+   <input type="hidden" name="user" value="${user.id}">
    
 
 <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" /> 
@@ -70,6 +73,11 @@
 <div class="w-100 flex flex-row justify-center mt-4"><button type="submit"  class="btn font-bold tracking-widest w-36 shadow-sm  bg-pink-400 hover:bg-green-400 text-gray-50 hover:text-gray-50">Edit</button></div>
 
 </form>
+</div>
+<div class="1/4">
+	<img  src="${house.houseImage}" class="w-64 h-64  mt-5 shadow rounded-md"/>
+
+</div>
 </div>
 </div>
 

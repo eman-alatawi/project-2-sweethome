@@ -69,7 +69,7 @@ public class User {
 	@CreationTimestamp
 	private LocalDateTime createAt;
 
-	@Column(name = "updatedat", nullable = false, updatable = true)
+	@Column(name = "updatedAt", nullable = false, updatable = true)
 	@UpdateTimestamp
 	private LocalDateTime updateAt;
 
