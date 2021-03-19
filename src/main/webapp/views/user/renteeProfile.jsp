@@ -55,7 +55,7 @@
  <div class="card mb-3 mt-3 shadow" style="max-width: 600px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img  class="w-full h-48 object-cover shadow-sm " src="${house.houseImage}" alt="House Image">
+            <img  class="w-full h-full object-cover shadow-sm " src="${house.houseImage}" alt="House Image">
           </div>
           <div class="col-md-8">
             <div class="card-body">

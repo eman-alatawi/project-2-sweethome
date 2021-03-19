@@ -5,11 +5,11 @@
 <div class=" w-100 flex flex-col justify-center  ">
 <c:forEach items="${houses}" var="house"> 
 <c:if test="${house.getRentee() == null}">
-<div class=" w-100  text-sm  object-contain px-60  bg-gray-50">
- <div class="card mb-3 mt-3 shadow" style="max-width: 1080px;">
+<div class=" w-100  text-sm  object-contain px-60 ">
+ <div class="card mb-3 mt-3 shadow bg-gray-100" style="max-width: 1080px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img  class="w-full h-96 object-cover shadow-sm" src="${house.houseImage}" alt="House Image" >
+            <img  class="w-full h-full object-cover shadow-sm" src="${house.houseImage}" alt="House Image" >
           </div>
           <div class="col-md-8 ">
             <div class="card-body">
