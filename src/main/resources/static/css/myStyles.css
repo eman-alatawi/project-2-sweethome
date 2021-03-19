@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&display=swap'); 
 a{
 	text-decoration: none !important;
+  color: white;
 } 
 .wb:hover{
 	text-decoration: none !important;
