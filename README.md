@@ -101,6 +101,27 @@
 ![Edit profiles and update password](src/main/resources/static/images/editprofilepass.jpg)
 ![Join us ans Sign in](src/main/resources/static/images/signjoin.jpg)
 
+## App Screenshot
+![Home page](src/main/resources/static/images/home-unlogged.png)
+![join us](src/main/resources/static/images/joinus.png)
+![signin](src/main/resources/static/images/signin.png)
+![Home page](src/main/resources/static/images/home-loggedin.png)
+![allHouses-owner](src/main/resources/static/images/allHouses-owner.png)
+![house-detail-owner](src/main/resources/static/images/house-details-owner.png)
+![owner-profile](src/main/resources/static/images/owner-profile.png)
+![add-house](src/main/resources/static/images/add-house.png)
+![edit-house](src/main/resources/static/images/edit-house.png)
+![/owner -view-who-rent-his-house](src/main/resources/static/images/owner -view-who-rent-his-house.png)
+![all Rooms](src/main/resources/static/images/allrooms.png)
+![add-room](src/main/resources/static/images/add-room.png)
+![edit Rooms](src/main/resources/static/images/edit-room.png)
+![all Houses-rentee](src/main/resources/static/images/all-houses-rentee.png)
+![house-details-rent-button](src/main/resources/static/images/house-details-rent-button.png)
+![rent-house-rentee-profile](src/main/resources/static/images/rent-house-rentee-profile.png)
+![edit-profiles](src/main/resources/static/images/edit-profiles.png)
+![change-password](src/main/resources/static/images/change-password.png)
+
+
 ## Stretch Goals
 - Allow user to update their own user profile. <b>Done</b>
 - Allow a user to update their password.<b>Done</b>
